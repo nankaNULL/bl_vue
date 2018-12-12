@@ -1,0 +1,78 @@
+.collect-dialog {
+  display: none;
+  background: rgba(0, 0, 0, 0.65);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 111; }
+  .collect-dialog .m-dialog {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 420px;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden; }
+    .collect-dialog .m-dialog > div.title {
+      text-align: center;
+      position: relative;
+      height: 50px;
+      line-height: 50px; }
+      .collect-dialog .m-dialog > div.title > p {
+        font-size: 16px; }
+      .collect-dialog .m-dialog > div.title > div.close {
+        position: absolute;
+        right: 20px;
+        top: 0;
+        font-size: 24px;
+        cursor: pointer; }
+    .collect-dialog .m-dialog > div.dir {
+      padding: 0 36px;
+      height: 300px;
+      overflow: auto; }
+      .collect-dialog .m-dialog > div.dir > ul.dir-list {
+        margin-top: 24px; }
+        .collect-dialog .m-dialog > div.dir > ul.dir-list li.dir-item {
+          padding-bottom: 24px;
+          font-size: 14px;
+          color: #222;
+          cursor: pointer; }
+          .collect-dialog .m-dialog > div.dir > ul.dir-list li.dir-item > label.myCheckboxStyle {
+            display: block;
+            overflow: hidden; }
+            .collect-dialog .m-dialog > div.dir > ul.dir-list li.dir-item > label.myCheckboxStyle > input[type=checkbox] {
+              appearance: none;
+              outline: none;
+              display: none; }
+            .collect-dialog .m-dialog > div.dir > ul.dir-list li.dir-item > label.myCheckboxStyle > input[type=checkbox] + i {
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              margin-right: 18px;
+              vertical-align: middle;
+              background: url(/static/images/video/uncheck.png); }
+            .collect-dialog .m-dialog > div.dir > ul.dir-list li.dir-item > label.myCheckboxStyle > input[type=checkbox]:checked + i {
+              background: url(/static/images/video/check.png); }
+            .collect-dialog .m-dialog > div.dir > ul.dir-list li.dir-item > label.myCheckboxStyle > span.count {
+              float: right; }
+    .collect-dialog .m-dialog > div.sub {
+      height: 76px;
+      text-align: center; }
+      .collect-dialog .m-dialog > div.sub > button.btn-sub {
+        margin: 0 auto;
+        font-size: 14px;
+        width: 160px;
+        height: 40px;
+        margin-top: 18px;
+        background: #00a1d6;
+        border: none;
+        outline: 0;
+        border-radius: 4px;
+        color: #fff;
+        cursor: pointer; }
+        .collect-dialog .m-dialog > div.sub > button.btn-sub.un {
+          background-color: #e5e9ef;
+          color: #b8c0cc; }

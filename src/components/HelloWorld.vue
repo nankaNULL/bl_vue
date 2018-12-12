@@ -1,0 +1,5180 @@
+<template>
+  <div id="app">
+    <!-- <div class="header">
+			<header></header>
+			<div class="header-content">
+				<div class="header-left">
+					<a href="#">
+						<img src="/static/images/logo.png" alt="">
+					</a>
+				</div>
+				<div class="header-right radius-4">
+					<a href="#" class="radius-4">
+						<span class="text-pink icon-rank">排行榜</span>
+					</a>
+					<form action="" class="searchform">
+						<input type="text" placeholder="喜欢的UP突然来我家蹭饭" class="radius-4">
+						<input type="submit" value="">
+					</form>
+				</div>
+			</div>
+		</div> -->
+		<!-- <div class="scroll-nav">
+			<ul>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">直播</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">动画</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">番剧</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">国创</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">音频</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">舞蹈</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">游戏</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">科技</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">生活</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">鬼畜</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">时尚</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">广告</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">娱乐</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">电影</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">TV剧</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">影视</span>
+					</a>
+				</li>
+				<li class="s-nav-list">
+					<a href="#">    
+						<span class="title">纪录片</span>
+					</a>
+				</li>
+			</ul>
+		</div> -->
+		<div class="content" id="app1">
+			<div class="label-list">
+				<ul>
+					<li>
+						<a href="#">
+							<i class="label-icon icon-home"></i>
+							<p>首页</p>
+						</a>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>656</span>
+							<p>动画</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="#">MAD·AWV</a></li>
+							<li><a href="#">MMD·3D</a></li>
+							<li><a href="#">短片·手书·配音</a></li>
+							<li><a href="#" class="b-border">综合</a></li>
+						</ul>
+					</li>
+					 <li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>44</span>
+							<p>番剧</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="#">连载动画</a></li>
+							<li><a href="#">完结动画</a></li>
+							<li><a href="#">资讯</a></li>
+							<li><a href="#">官方延伸</a></li>
+							<li><a href="#">新番时间表</a></li>
+							<li><a href="#" class="b-border">番剧索引</a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>40</span>
+							<p>国创</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://www.bilibili.com/v/guochuang/chinese/"><span>国产动画</span></a></li><li><a href="https://www.bilibili.com/v/guochuang/original/"><span>国产原创相关</span></a></li><li><a href="https://www.bilibili.com/v/guochuang/puppetry/"><span>布袋戏</span></a></li><li><a href="https://www.bilibili.com/v/guochuang/information/"><span>资讯</span></a></li><li><a href="https://www.bilibili.com/guochuang/timeline/"><span>新番时间表</span></a></li><li><a href="https://www.bilibili.com/guochuang/index/" class="b-border"><span>国产动画索引</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>999+</span>
+							<p>音乐</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://www.bilibili.com/v/music/original/">原创音乐</a></li><li><a href="https://www.bilibili.com/v/music/cover/">翻唱</a></li><li><a href="https://www.bilibili.com/v/music/vocaloid/">VOCALOID·UTAU</a></li><li><a href="https://www.bilibili.com/v/music/perform/">演奏</a></li><li><a href="https://www.bilibili.com/v/music/coordinate/">三次元音乐</a></li><li><a href="https://www.bilibili.com/v/music/oped/">OP/ED/OST</a></li><li><a href="https://www.bilibili.com/v/music/collection/" class="b-border">音乐选集</a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>137</span>
+							<p>舞蹈</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://www.bilibili.com/v/dance/otaku/"><span>宅舞</span></a></li><li><a href="https://www.bilibili.com/v/dance/three_d/"><span>三次元舞蹈</span></a></li><li><a href="https://www.bilibili.com/v/dance/demo/" class="b-border"><span>舞蹈教程</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>999+</span>
+							<p>游戏</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://www.bilibili.com/v/game/stand_alone/"><span>单机游戏</span></a></li><li><a href="https://www.bilibili.com/v/game/esports/"><span>电子竞技</span></a></li><li><a href="https://www.bilibili.com/v/game/mobile/"><span>手机游戏</span></a></li><li><a href="https://www.bilibili.com/v/game/online/"><span>网络游戏</span></a></li><li><a href="https://www.bilibili.com/v/game/board/"><span>桌游棋牌</span></a></li><li><a href="https://www.bilibili.com/v/game/gmv/"><span>GMV</span></a></li><li><a href="https://www.bilibili.com/v/game/music/"><span>音游</span></a></li><li><a href="https://www.bilibili.com/v/game/mugen/"><span>Mugen</span></a></li><li><a href="https://www.bilibili.com/v/game/match/" class="b-border"><span>游戏赛事</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>837</span>
+							<p>科技</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://www.bilibili.com/v/technology/fun/"><span>趣味科普人文</span></a></li><li><a href="https://www.bilibili.com/v/technology/wild/"><span>野生技术协会</span></a></li><li><a href="https://www.bilibili.com/v/technology/speech_course/"><span>演讲·公开课</span></a></li><li><a href="https://www.bilibili.com/v/technology/military/"><span>星海</span></a></li><li><a href="https://www.bilibili.com/v/technology/digital/"><span>数码</span></a></li><li><a href="https://www.bilibili.com/v/technology/mechanical/"><span>机械</span></a></li><li><a href="https://www.bilibili.com/v/technology/automobile/" class="b-border"><span>汽车</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>999+</span>
+							<p>生活</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://www.bilibili.com/v/life/funny/"><span>搞笑</span></a></li><li><a href="https://www.bilibili.com/v/life/daily/"><span>日常</span></a></li><li><a href="https://www.bilibili.com/v/life/food/"><span>美食圈</span></a></li><li><a href="https://www.bilibili.com/v/life/animal/"><span>动物圈</span></a></li><li><a href="https://www.bilibili.com/v/life/handmake/"><span>手工</span></a></li><li><a href="https://www.bilibili.com/v/life/painting/"><span>绘画</span></a></li><li><a href="https://www.bilibili.com/v/life/sports/"><span>运动</span></a></li><li><a href="https://www.bilibili.com/v/life/other/" class="b-border"><span>其他</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>69</span>
+							<p>鬼畜</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://www.bilibili.com/v/kichiku/guide/"><span>鬼畜调教</span></a></li><li><a href="https://www.bilibili.com/v/kichiku/mad/"><span>音MAD</span></a></li><li><a href="https://www.bilibili.com/v/kichiku/manual_vocaloid/"><span>人力VOCALOID</span></a></li><li><a href="https://www.bilibili.com/v/kichiku/course/" class="b-border"><span>教程演示</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>295</span>
+							<p>时尚</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://www.bilibili.com/v/fashion/makeup/"><span>美妆</span></a></li><li><a href="https://www.bilibili.com/v/fashion/clothing/"><span>服饰</span></a></li><li><a href="https://www.bilibili.com/v/fashion/aerobics/"><span>健身</span></a></li><li><a href="https://www.bilibili.com/v/fashion/information/" class="b-border"><span>资讯</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>78</span>
+							<p>广告</p>
+						</a>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>999+</span>
+							<p>娱乐</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://www.bilibili.com/v/ent/variety/"><span>综艺</span></a></li><li><a href="https://www.bilibili.com/v/ent/star/"><span>明星</span></a></li><li><a href="https://www.bilibili.com/v/ent/korea/" class="b-border"><span>Korea相关</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>999+</span>
+							<p>影视</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://www.bilibili.com/v/cinephile/cinecism/"><span>影视杂谈</span></a></li><li><a href="https://www.bilibili.com/v/cinephile/montage/"><span>影视剪辑</span></a></li><li><a href="https://www.bilibili.com/v/cinephile/shortfilm/"><span>短片</span></a></li><li><a href="https://www.bilibili.com/v/cinephile/trailer_info/"><span>预告·资讯</span></a></li><li><a href="https://www.bilibili.com/v/cinephile/tokusatsu/" class="b-border"><span>特摄</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<span>40</span>
+							<p>放映厅</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://www.bilibili.com/documentary/"><span>纪录片</span></a></li><li><a href="https://www.bilibili.com/movie/"><span>电影</span></a></li><li><a href="https://www.bilibili.com/tv/" class="b-border"><span>电视剧</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<i class="label-icon icon-zl"></i>
+							<p>专栏</p>
+						</a>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<i class="label-icon icon-gc"></i>
+							<p>广场</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://show.bilibili.com/platform/home.html"><i class="icon-prim icon-vip-buy"></i><span>会员购</span></a></li><li><a href="https://activity.bilibili.com/"><i class="icon-prim icon-activity"></i><span>活动中心</span></a></li><li><a href="https://game.bilibili.com/"><i class="icon-prim icon-game"></i><span>游戏中心</span></a></li><li><a href="https://news.bilibili.com/"><i class="icon-prim icon-news"></i><span>新闻中心</span></a></li><li><a href="http://h.bilibili.com/"><i class="icon-prim icon-hy"></i><span>画友</span></a></li><li><a href="https://www.bilibili.com/mango"><i class="icon-prim icon-mango b-border"></i><span>芒果TV</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<i class="label-icon icon-live"></i>
+							<p>直播</p>
+						</a>
+						<ul class="labal-collapse">
+							<li><a href="https://live.bilibili.com/subject"><span>推荐主播</span></a></li><li><a href="https://live.bilibili.com/pages/area/ent"><span>生活娱乐</span></a></li><li><a href="https://live.bilibili.com/draw"><span>绘画专区</span></a></li><li><a href="https://live.bilibili.com/pages/area/ent"><span>唱见舞见</span></a></li><li><a href="https://live.bilibili.com/pages/area/ent"><span>御宅文化</span></a></li><li><a href="https://live.bilibili.com/single"><span>单机联机</span></a></li><li><a href="https://live.bilibili.com/online"><span>网络游戏</span></a></li><li><a href="https://live.bilibili.com/e-sports"><span>电子竞技</span></a></li><li><a href="https://live.bilibili.com/mobile-game" class="b-border"><span>手游直播</span></a></li>
+						</ul>
+					</li>
+					<li class="labal-collapse-f f-position">
+						<a href="#">
+							<i class="label-icon icon-xhw"></i>
+							<p>小黑屋</p>
+						</a>
+					</li> 
+					<li>
+						<img src="/static/images/6e1db3139e3e01269e79eb6718b85fa77f924aee.gif" alt="" class="img-middle">
+					</li>
+				</ul>
+			</div>
+			<div class="content-slider">
+				<div class="slider-left">
+					<div class="slider">
+						<ul class="slider-con">
+							<li class="slider-item active" data-slider="0">
+								<a href="javascript:void(0)">
+									<img src="/static/images/archive/slider1.jpg">
+									<div>小雀斑惨遭吐槽</div>
+								</a>
+							</li>
+							<li class="slider-item">
+								<a href="javascript:void(0)">
+										<img src="/static/images/archive/slider2.jpg">
+									<div>捕猎的时机到了~！</div>
+								</a>
+							</li>
+							<li class="slider-item">
+								<a href="javascript:void(0)">
+									<img src="/static/images/archive/slider3.jpg">
+									<div>神奇动物2火爆热映中</div>
+								</a>
+							</li>
+							<li class="slider-item">
+								<a href="javascript:void(0)">
+										<img src="/static/images/archive/slider4.jpg">
+									<div>嗅嗅是我的！</div>
+								</a>
+							</li>
+							<li class="slider-item">
+								<a href="javascript:void(0)">
+										<img src="/static/images/archive/slider5.jpg">
+									<div>有些欣慰，有些难受，更有开心在里面</div>
+								</a>
+							</li>
+						</ul>
+						<ul class="slider-dot">
+							<li class="dot-item active"><button class="btn-dot"></button></li>
+							<li class="dot-item"><button class="btn-dot"></button></li>
+							<li class="dot-item"><button class="btn-dot"></button></li>
+							<li class="dot-item"><button class="btn-dot"></button></li>
+							<li class="dot-item"><button class="btn-dot"></button></li>
+						</ul>
+					</div>
+				</div>
+				<div class="slider-right" >
+					<a href="#" class="show-card" title="【漫画屋】小学生惨遭怪物吞食！为寻求生路展开烧脑越狱！">
+						<div>
+							<img src="/static/images/card1.jpg" alt="【漫画屋】小学生惨遭怪物吞食！为寻求生路展开烧脑越狱！">
+							<div class="card-hidden radius-img">
+								<p>【漫画屋】小学生惨遭怪物吞食！为寻求生路展开烧脑越狱！</p>
+								<div id="up-play">
+									<p>up主：尕丶天堂</p>
+									<p>播放：10.5万</p>
+								</div>
+								<div class="dl"><img src="/static/images/download.png" alt=""></div>
+							</div>
+						</div>
+					</a>
+					<!-- <span>昨日</span>
+					<span>一周</span> -->
+				</div>
+			</div>
+			<!-- <div class="content-list-spread list-module">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-spread"></i>
+						<p>推广</p>
+					</div>
+					<div class="list-card" >
+						<a href="#" v-for="video in videos" :key="video.vid" v-if="video.type==2">
+							<div class="show-card f-position">
+								<img :src="video.img_url" alt="video.title">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>{{video.vtime|timeFormat}}</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p :title="video.title">{{video.title}}</p>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="right-title">
+						<a href="#">在线人数：3026337</a>
+						<em></em>
+						<a href="#">最新投稿：31711</a>
+					</div>
+					<a href="#"><img src="/static/images/91dd32389956c30d600e77c8cfd9d18f.jpg" alt=""></a>
+				</div>
+			</div>
+			<div class="content-list-live list-module scroll-con">
+				<div class="lazy-img"><a href="#"><img src="/static/images/1a106fa5e9269b923ccd044bbf09f143.jpg" alt=""></a></div>
+				<div class="list-left">
+					<div class="left-title ">
+						<i class="icon-card icon-nlive"></i>
+						<p>正在直播</p>
+						<p>当前共有<span>3940</span>个在线直播</p>
+						<a href="#">
+							<i></i>
+							<span>233秒居然能做这些！</span>
+						</a>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card card-cover"><img src="/static/images/live1.webp" alt=""></div>
+							<div class="show-card f-position">
+								<img src="/static/images/live0.webp" alt="">
+								<div class="live-detail clearfix">
+									<span>bilibili英雄联盟赛事</span>
+									<span>
+										<i class="another-icon icon-guanz"></i>
+										68.8万
+									</span>
+								</div>
+							</div>
+							<p title="【S8入围赛】 G2 VS INF 5M">【S8入围赛】 G2 VS INF 5M</p>
+							<p class="live-hidden">游戏 · 英雄联盟</p>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card card-cover"><img src="/static/images/live1.webp" alt=""></div>
+							<div class="show-card f-position">
+								<img src="/static/images/live2.webp" alt="">
+								<div class="live-detail clearfix">
+									<span>凤竹教主解说</span>
+									<span>
+										<i class="another-icon icon-guanz"></i>
+										7.2万
+									</span>
+								</div>
+							</div>
+							<p title="赢一局抽100现金红包！">赢一局抽100现金红包！</p>
+							<p class="live-hidden">游戏 · 英雄联盟</p>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card card-cover"><img src="/static/images/live1.webp" alt=""></div>
+							<div class="show-card f-position">
+								<img src="/static/images/live3.webp" alt="">
+								<div class="live-detail clearfix">
+									<span>陸赛赛</span>
+									<span>
+										<i class="another-icon icon-guanz"></i>
+										309
+									</span>
+								</div>
+							</div>
+							<p title="你是无意穿堂风，偏偏孤倨引山洪">你是无意穿堂风，偏偏孤倨引山洪</p>
+							<p class="live-hidden">娱乐 · 视频聊天</p>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card card-cover"><img src="/static/images/live1.webp" alt=""></div>
+							<div class="show-card f-position">
+								<img src="/static/images/live4.webp" alt="">
+								<div class="live-detail clearfix">
+									<span>一米八的坤儿</span>
+									<span>
+										<i class="another-icon icon-guanz"></i>
+										18.8万
+									</span>
+								</div>
+							</div>
+							<p title="技术主播认真">技术主播认真</p>
+							<p class="live-hidden">游戏 · 绝地求生</p>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card card-cover"><img src="/static/images/live1.webp" alt=""></div>
+							<div class="show-card f-position">
+								<img src="/static/images/live5.webp" alt="">
+								<div class="live-detail clearfix">
+									<span>白露凛</span>
+									<span>
+										<i class="another-icon icon-guanz"></i>
+										3558
+									</span>
+								</div>
+							</div>
+							<p title="(°∀°)ﾉ我今天能吃鸡了！">(°∀°)ﾉ我今天能吃鸡了！</p>
+							<p class="live-hidden">游戏 · 绝地求生</p>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card card-cover"><img src="/static/images/live1.webp" alt=""></div>
+							<div class="show-card f-position">
+								<img src="/static/images/live6.webp" alt="">
+								<div class="live-detail clearfix">
+									<span>LangF丶狼枫子</span>
+									<span>
+										<i class="another-icon icon-guanz"></i>
+										3946
+									</span>
+								</div>
+							</div>
+							<p title="皮皮枫幼儿园 第五人格">皮皮枫幼儿园 第五人格</p>
+							<p class="live-hidden">手游 · 第五人格</p>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card card-cover"><img src="/static/images/live1.webp" alt=""></div>
+							<div class="show-card f-position">
+								<img src="/static/images/live7.webp" alt="">
+								<div class="live-detail clearfix">
+									<span>我是花花巨蟹</span>
+									<span>
+										<i class="another-icon icon-guanz"></i>
+										1583
+									</span>
+								</div>
+							</div>
+							<p title="新道具  我要做国际服最强">新道具  我要做国际服最强</p>
+							<p class="live-hidden">游戏 · 堡垒之夜</p>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card card-cover"><img src="/static/images/live1.webp" alt=""></div>
+							<div class="show-card f-position">
+								<img src="/static/images/live8.webp" alt="">
+								<div class="live-detail clearfix">
+									<span>你李哥永远都是你李哥</span>
+									<span>
+										<i class="another-icon icon-guanz"></i>
+										5855
+									</span>
+								</div>
+							</div>
+							<p title="招募房管这把枪跟了我三十年没杀过人">招募房管这把枪跟了我三十年没杀过人</p>
+							<p class="live-hidden">游戏 · 绝地求生</p>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="tab">
+						<div class="tab-item on">直播排行</div>
+						<div class="tab-item">关注的主播</div>
+						<div class="tab-item">为你推荐</div>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list">
+										<span>1</span>
+										<a href="#"><img src="/static/images/rank1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="up-name">bilibili英雄联盟赛事</p>
+													<p>
+														<i class="another-icon icon-guanzh"></i>
+														<span>68.8万</span>
+													</p>
+												</div>
+												<span class="rank-detail" title="【S8入围赛】 G2 VS INF 5M">【S8入围赛】 G2 VS INF 5M</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#"><img src="/static/images/rank2.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="up-name">OldBa1</p>
+													<p>
+														<i class="another-icon icon-guanzh"></i>
+														<span>36.7万</span>
+													</p>
+												</div>
+												<span class="rank-detail" title="第五人格，下午开完黑小小梦魇DLC">第五人格，下午开完黑小小梦魇DLC</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#"><img src="/static/images/rank3.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="up-name">梦醒三生梦</p>
+													<p>
+														<i class="another-icon icon-guanzh"></i>
+														<span>22.8万</span>
+													</p>
+												</div>
+												<span class="rank-detail" title="王者荣耀带你看懂二狗">王者荣耀带你看懂二狗</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#"><img src="/static/images/rank4.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="up-name">一米八的坤儿</p>
+													<p>
+														<i class="another-icon icon-guanzh"></i>
+														<span>18.8万</span>
+													</p>
+												</div>
+												<span class="rank-detail" title="技术主播认真">技术主播认真</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#"><img src="/static/images/rank5.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="up-name">两仪滚</p>
+													<p>
+														<i class="another-icon icon-guanzh"></i>
+														<span>16.9万</span>
+													</p>
+												</div>
+												<span class="rank-detail" title="【滚  kakao撒手">【滚  kakao撒手</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#"><img src="/static/images/rank6.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="up-name">bilibili英雄联盟赛事直播</p>
+													<p>
+														<i class="another-icon icon-guanzh"></i>
+														<span>13.2万</span>
+													</p>
+												</div>
+												<span class="rank-detail" title="【10M】2018英雄联盟全球总决赛">【10M】2018英雄联盟全球总决赛</span>
+											</div>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="item-con">
+							<p>没有数据(-_-#)</p>
+						</div>
+						<div class="item-con tuijian">
+							<a href="#">
+								<div>
+									<img src=".//static/images/archive/fdd91a4c5a60493af08e2b2f9f9e1079e5a1fdc7.png" alt="">
+								</div>
+							</a>
+							<div>
+								<a href="#"><img src=".//static/images/wh2.png" alt=""></a>
+								<a href="#"><img src=".//static/images/sp2.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-anime list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-anime"></i>
+						<p>动画</p>
+						<div class="tab">
+							<div class="tab-item on" @click="addSum(-1)">有新动态</div>
+							<div class="tab-item" @click="addSum(1)">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="javascript:;" class="f-position" v-for="(video,i) in videos" :key="video.vid" v-if="video.type==4&&(i>=sum&&i<sum+8)">
+							<div class="show-card f-position">
+								<img :src="video.img_url" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>{{video.vtime|timeFormat}}
+												{{sum}}</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p :title="video.title">{{video.title}}</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									{{video.play_num|numFormat}}
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									{{video.collect_num|numFormat}}
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<button class="btn-smore">查看更多</button>
+				</div>
+			</div>
+			<div class="content-list-manga list-module scroll-con">
+				<div class="lazy-img"><a href="#"><img src="/static/images/46b6ffa35384b0e0590d9acdab5aa89d.jpg" alt=""></a></div>
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-manga"></i>
+						<p>番剧</p>
+						<div class="tab tab-manga">
+							<div class="tab-item on" @click="getManga()">最新</div>
+							<div class="tab-item" @click="getManga('mon')">一</div>
+							<div class="tab-item" @click="getManga('tues')">二</div>
+							<div class="tab-item" @click="getManga('wed')">三</div>
+							<div class="tab-item" @click="getManga('thur')">四</div>
+							<div class="tab-item" @click="getManga('fri')">五</div>
+							<div class="tab-item" @click="getManga('sat')">六</div>
+							<div class="tab-item" @click="getManga('sun')">日</div>
+						</div>
+						<div class="manga-time">新番时间表<i class="another-icon icon-more-pink"></i></div>
+					</div>
+					<div class="scroll-card">
+						<div class="card-list" v-for="manga in mangas">
+							<img :src="manga.img_url" alt="">
+							<div class="card-right">
+								<a href="#" :title="manga.title">{{manga.title}}</a>
+								<p class="update"><span>更新至<a href="#">{{manga.episode}}话</a></span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list">
+										<span>1</span>
+										<a href="#" class="text-ellipsis">魔法禁书目录 第三季</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">青春猪头少年不会梦到兔女郎学姐</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">刀剑神域 Alicization</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">JOJO的奇妙冒险 黄金之风</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">我家女仆有够烦！</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">终将成为你</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">邻家索菲</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>8</span>
+										<a href="#" class="text-ellipsis">关于我转生变成史莱姆这档事</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>9</span>
+										<a href="#" class="text-ellipsis">Angels of Death</a>
+										<span>更新至第13话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>10</span>
+										<a href="#" class="text-ellipsis">工作细胞</a>
+										<span>全13话</span>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-mangaActive list-module">
+				<div class="list-left">
+					<div class="left-title">
+						<p class="anime-active">番剧动态</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>特别推荐</span>
+					</div>
+					<div class="right-content">
+						<img src="/static/images/free.webp" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="content-list-manga manga-china list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-manga-china"></i>
+						<p>国创</p>
+						<div class="tab tab-manga">
+							<div class="tab-item on" @click="getManga()">最新</div>
+							<div class="tab-item" @click="getManga('mon')">一</div>
+							<div class="tab-item" @click="getManga('tues')">二</div>
+							<div class="tab-item" @click="getManga('wed')">三</div>
+							<div class="tab-item" @click="getManga('thur')">四</div>
+							<div class="tab-item" @click="getManga('fri')">五</div>
+							<div class="tab-item" @click="getManga('sat')">六</div>
+							<div class="tab-item" @click="getManga('sun')">日</div>
+						</div>
+						<div class="manga-time">新番时间表<i class="another-icon icon-more-pink"></i></div>
+					</div>
+					<div class="scroll-card">
+						<div class="card-list" v-for="manga in mangas">
+							<img :src="manga.img_url" alt="">
+							<div class="card-right">
+								<a href="#" :title="manga.title">{{manga.title}}</a>
+								<p class="update"><span>更新至<a href="#">{{manga.episode}}话</a></span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list">
+										<span>1</span>
+										<a href="#" class="text-ellipsis">魔法禁书目录 第三季</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">青春猪头少年不会梦到兔女郎学姐</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">刀剑神域 Alicization</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">JOJO的奇妙冒险 黄金之风</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">我家女仆有够烦！</a>
+										<span>更新至第1话</span>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+							<img src="/static/images/manga-china.webp" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime china-active list-module">
+				<div class="list-left">
+					<div class="left-title">
+						<p class="anime-active">国产原创相关</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<div class="content-list-anime list-music list-module scroll-con">
+				<!-- <div class="lazy-img"><a href="#"><img src="" alt=""></a></div> -->
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-music"></i>
+						<p>音频</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-dance list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-dance"></i>
+						<p>舞蹈</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-game list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-game"></i>
+						<p>游戏</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-science list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-science"></i>
+						<p>科技</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-life list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-life"></i>
+						<p>生活</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-guichu list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-guichu"></i>
+						<p>鬼畜</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-fashion list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-fashion"></i>
+						<p>时尚</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-ad list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-ad"></i>
+						<p>广告</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-yule list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-yule"></i>
+						<p>娱乐</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-medium list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-medium"></i>
+						<p>电影</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-tv list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-tv"></i>
+						<p>电视剧</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-yingshi list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-yingshi"></i>
+						<p>影视</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list-anime list-decoration list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<i class="icon-card icon-decoration"></i>
+						<p>纪录片</p>
+						<div class="tab">
+							<div class="tab-item on">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="update">
+								<i class="another-icon icon-update"></i>
+								<span>29106条新动态</span>
+							</div>
+							<div class="more">
+								<span>更多</span>
+								<i class="another-icon icon-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime1.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>34:29</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									94.7万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									3.9万
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime2.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:55</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【轰爆】有人告白了(～￣▽￣)～">【轰爆】有人告白了(～￣▽￣)～</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									11.8万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1737
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime3.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>02:22</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="#56 这次真的生气了！！">#56 这次真的生气了！！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.6万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									268
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime4.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>03:30</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【工作细胞】各细胞寿命长短比较">【工作细胞】各细胞寿命长短比较</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									20.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									1533
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime5.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>05:09</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【魔道祖师】忘羡一曲远，曲终人不散。">【魔道祖师】忘羡一曲远，曲终人不散。</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									3.0万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									552
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime6.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>04:15</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！">【泛式/单集MAD】海贼王：顶上战争篇——这个时代的名字叫白胡子！</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									69.3万
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									5236
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime7.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:31</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【乱入向】小埋乱入妹抖龙op">【乱入向】小埋乱入妹抖龙op</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5561
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									103
+								</span>
+							</div>
+						</a>
+						<a href="#" class="f-position">
+							<div class="show-card f-position">
+								<img src="/static/images/anime8.webp" alt="">
+								<div class="spread-hidden f-position" >
+									<div class="hidden-con clearfix">
+										<span>01:56</span>
+										<img src="/static/images/download.png" alt="">
+									</div>
+								</div>
+							</div>
+							<p title="【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here">【这可能式b站唯一一个灰太狼燃向mad/片尾正片/燃不起了炒饭香就完事了】我，炒饭灰太狼Here</p>
+							<div class="live-hidden">
+								<span>
+									<i class="another-icon icon-video"></i>
+									5816
+								</span>
+								<span>
+									<i class="another-icon icon-danmu"></i>
+									70
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list" id="anime-f">
+										<span>1</span>
+										<a href="#"><img src="/static/images/anime1.webp" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p class="a-detail">何为营销号？用爱发电对UP主而言意味着什么？网络原创生态的窘迫现状及其成因【动话说#02】</p>
+												</div>
+												<span>综合评分：338.6万</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#" class="text-ellipsis">【新番咋了35】十月新番观看推荐！约战3预告片独家发布中（滑稽+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#" class="text-ellipsis">【动画VS真人】史上最可怕的莫过于真人化而且还是高还原！ 播放:624098 9:07</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#" class="text-ellipsis">刀剑神域第三季第1集抢先看！一小时超长内容情报前瞻！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#" class="text-ellipsis">当着正宫的面亲吻男主！会发生什么？巨型吃醋现场！</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#" class="text-ellipsis">史上最骚后宫漫画！全校女生都想着调戏我？我们还能不能一起学习？</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#" class="text-ellipsis">【梗百科67】全是女生？根本不需要男人？？？更多妹子更多老婆更多快乐！！</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="content-list-anime list-decoration list-module scroll-con">
+				<div class="list-left">
+					<div class="left-title">
+						<img src="" alt="">
+						<p>记录片</p>
+						<div class="tab">
+							<div class="tab-item">有新动态</div>
+							<div class="tab-item">最新投稿</div>
+						</div>
+						<div class="update-more">
+							<div class="more">
+								<span>更多</span>
+								<i></i>
+							</div>
+						</div>
+					</div>
+					<div class="list-card">
+						<a href="#">
+							<div class="show-card"></div>
+							<p>幻想万华镜</p>
+							<div class="hidden"><p>游戏·其他游戏</p></div>
+						</a>
+						<a href="#">
+							<div class="show-card"></div>
+							<p>【疯狂的麦克斯】</p>
+							<div class="hidden"><p>游戏·其他游戏</p></div>
+						</a>
+						<a href="#">
+							<div class="show-card"></div>
+							<p>【疯狂的麦克斯】</p>
+							<div class="hidden"><p>游戏·其他游戏</p></div>
+						</a>
+						<a href="#">
+							<div class="show-card"></div>
+							<p>【疯狂的麦克斯】</p>
+							<div class="hidden"><p>游戏·其他游戏</p></div>
+						</a>
+						<a href="#">
+							<div class="show-card"></div>
+							<p>【疯狂的麦克斯】</p>
+							<div class="hidden"><p>游戏·其他游戏</p></div>
+						</a>
+						<a href="#">
+							<div class="show-card"></div>
+							<p>【疯狂的麦克斯】</p>
+							<div class="hidden"><p>游戏·其他游戏</p></div>
+						</a>
+						<a href="#">
+							<div class="show-card"></div>
+							<p>【疯狂的麦克斯】</p>
+							<div class="hidden"><p>游戏·其他游戏</p></div>
+						</a>
+						<a href="#">
+							<div class="show-card"></div>
+							<p>【疯狂的麦克斯】</p>
+							<div class="hidden"><p>游戏·其他游戏</p></div>
+						</a>
+					</div>
+				</div>
+				<div class="list-right">
+					<div class="anime-r-title">
+						<span>排行</span>
+						<div class="tab">
+							<div class="tab-item on">全部</div>
+							<div class="tab-item">原创</div>
+						</div>
+						<select name="" id="">
+							<option value="threeday">三日</option>
+							<option value="week">一周</option>
+						</select>
+					</div>
+					<div class="right-content">
+						<div class="item-con rank">
+							<ul>
+								<li>
+									<div class="rank-list">
+										<span>1</span>
+										<a href="#"><img src="" alt=""></a>
+										<a href="#">
+											<div>
+												<div class="top">
+													<p>【泛式】草履虫也能看懂！带你轻松搞懂崩坏3到底说</p>
+												</div>
+												<span>第五人格</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>2</span>
+										<a href="#">【Blender照片级】自制半透连衣裙+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>3</span>
+										<a href="#">【Blender照片级】自制半透连衣裙+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>4</span>
+										<a href="#">【Blender照片级】自制半透连衣裙+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>5</span>
+										<a href="#">【Blender照片级】自制半透连衣裙+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>6</span>
+										<a href="#">【Blender照片级】自制半透连衣裙+完美肌</a>
+									</div>
+								</li>
+								<li>
+									<div class="rank-list">
+										<span>7</span>
+										<a href="#">【Blender照片级】自制半透连衣裙+完美肌</a>
+									</div>
+								</li>
+							</ul>
+							<button class="btn-smore">查看更多</button>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+		<!-- <iframe src="footer.html" frameborder="0" width="100%" height="400px" scrolling="no"></iframe> -->
+  </div>
+</template>
+
+<script>
+  import "@/assets/css/base.css"
+  import "@/assets/css/slider.css"
+  import "@/assets/css/scrollnav.css"
+  import "@/assets/css/index_copy.css"
+  import "@/assets/css/index.css"
+  import "@/assets/css/iconfont.css"
+  export default {
+    name: 'HelloWorld',
+    data () {
+      return {
+        msg: 'Welcome to Your Vue.js App'
+      }
+    }
+  }
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+  /* h1, h2 {
+    font-weight: normal;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  a {
+    color: #42b983;
+  } */
+</style>
